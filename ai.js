@@ -12,7 +12,7 @@ export async function getGeneratedRecipe(ingredientsArr) {
   try {
     const response = await client.chatCompletion({
       model: "HuggingFaceTB/SmolLM3-3B",
-      // "deepseek-ai/DeepSeek-V3-0324"
+
       messages: [
         { role: "system", content: SYSTEM_PROMPT },
         {
