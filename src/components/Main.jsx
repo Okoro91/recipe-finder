@@ -25,7 +25,7 @@ const Main = () => {
       <form action={handleSubmit} className="add-ingredient-form">
         <input
           type="text"
-          placeholder="e.g. Rice"
+          placeholder="e.g. Rice (3 at least)"
           aria-label="Add ingredient"
           name="ingredient"
         />
