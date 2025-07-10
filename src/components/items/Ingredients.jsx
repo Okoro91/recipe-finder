@@ -7,7 +7,7 @@ const Ingredients = (props) => {
 
   return (
     <section>
-      <h2>Ingredients on hand:</h2>
+      <h3>Ingredients on hand:</h3>
       <ul className="ingredients-list" aria-live="polite">
         {ingredientsListItems}
       </ul>
