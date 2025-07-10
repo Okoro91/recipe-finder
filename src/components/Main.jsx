@@ -20,8 +20,10 @@ const Main = () => {
 
   return (
     <main>
-      <h2>Welcome to Chef Okoro Kichen</h2>
-      <p>Enter your ingredients and get our best recipe recommendation</p>
+      <h2 className="text">Welcome to Chef Okoro Kichen</h2>
+      <p className="text">
+        Enter your ingredients and get our best recipe recommendation
+      </p>
       <form action={handleSubmit} className="add-ingredient-form">
         <input
           type="text"

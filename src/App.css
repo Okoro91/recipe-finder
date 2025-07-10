@@ -118,7 +118,6 @@ ul.ingredients-list > li {
   margin-bottom: 8px;
 }
 
-h2,
-p {
+.text {
   text-align: center;
 }
